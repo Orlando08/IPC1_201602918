@@ -159,7 +159,7 @@ public class Interfaz extends JFrame{
 		llegAvion.addActionListener(new ActionListener(){
 
                  public void actionPerformed(ActionEvent ae){
-                    ruta = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\imagenes\\ListaDoble.png";
+                    ruta = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\proyecto2\\ListaDoble.png";
 			ImageIcon icono = new ImageIcon(ruta);
 			icono.getImage().flush();
 			String titulo = "LLEGADA AVIONES";
@@ -174,7 +174,7 @@ public class Interfaz extends JFrame{
 		desbordaje.addActionListener(new ActionListener(){
 
                  public void actionPerformed(ActionEvent ae){
-                    ruta = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\imagenes\\PasajeroCola.png";
+                    ruta = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\proyecto2\\PasajeroCola.png";
 			ImageIcon icono = new ImageIcon(ruta);
 			icono.getImage().flush();
 			String titulo = "DESBORDAJE";
@@ -189,7 +189,7 @@ public class Interfaz extends JFrame{
 		escritorios.addActionListener(new ActionListener(){
 
                  public void actionPerformed(ActionEvent ae){
-                    ruta = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\imagenes\\EscritorioLista.png";
+                    ruta = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\proyecto2\\EscritorioLista.png";
 			ImageIcon icono = new ImageIcon(ruta);
 			icono.getImage().flush();
 			String titulo = "ESCRITORIOS";
@@ -204,7 +204,7 @@ public class Interfaz extends JFrame{
 		mantenimient.addActionListener(new ActionListener(){
 
                  public void actionPerformed(ActionEvent ae){
-                    ruta = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\imagenes\\MantenimientoLista.png";
+                    ruta = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\proyecto2\\MantenimientoLista.png";
 			ImageIcon icono = new ImageIcon(ruta);
 			icono.getImage().flush();
 			String titulo = "MANTENIMIENTO";
@@ -219,7 +219,7 @@ public class Interfaz extends JFrame{
 		equipaje.addActionListener(new ActionListener(){
 
                  public void actionPerformed(ActionEvent ae){
-                    ruta = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\imagenes\\EquipajeLista.png";
+                    ruta = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\proyecto2\\EquipajeLista.png";
 			ImageIcon icono = new ImageIcon(ruta);
 			icono.getImage().flush();
 			String titulo = "EQUIPAJE";
@@ -234,19 +234,19 @@ public class Interfaz extends JFrame{
 		complete.addActionListener(new ActionListener(){
 
                  public void actionPerformed(ActionEvent ae){
-                    ruta = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\imagenes\\ListaDoble.png";
+                    ruta = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\proyecto2\\ListaDoble.png";
 			ImageIcon icono = new ImageIcon(ruta);
 			icono.getImage().flush();
-                    ruta1 = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\imagenes\\PasajeroCola.png";
+                    ruta1 = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\proyecto2\\PasajeroCola.png";
 			ImageIcon icono1 = new ImageIcon(ruta1);
 			icono1.getImage().flush();
-                    ruta2 = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\imagenes\\EscritorioLista.png";
+                    ruta2 = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\proyecto2\\EscritorioLista.png";
 			ImageIcon icono2 = new ImageIcon(ruta2);
 			icono2.getImage().flush();
-                    ruta3 = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\imagenes\\MantenimientoLista.png";
+                    ruta3 = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\proyecto2\\MantenimientoLista.png";
 			ImageIcon icono3 = new ImageIcon(ruta3);
 			icono3.getImage().flush();
-                    ruta4 = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\imagenes\\EquipajeLista.png";
+                    ruta4 = "C:\\Users\\tonyc\\Desktop\\Proyecto2\\Proyecto2\\src\\proyecto2\\EquipajeLista.png";
 			ImageIcon icono4 = new ImageIcon(ruta4);
 			icono4.getImage().flush();
 			InterfazGraficaCompleta frameGraficas = new InterfazGraficaCompleta(icono,icono1, icono2, icono3, icono4);                 
